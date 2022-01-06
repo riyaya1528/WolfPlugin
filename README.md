@@ -29,4 +29,4 @@ Mute all users in discord with command.
 
 ## Licence
 
-WolfPluginは [MIT licence](https://opensource.org/licenses/MIT) になっています。詳しくは [ライセンスファイル](LICENCE) を参照してください。[tl;dr](https://tldrlegal.com/license/mit-license) ソフトウェア/ソースのコピーに元の著作権とライセンスの通知を含める限り、自由に行うことができます。
+WolfPluginは [MIT licence](https://opensource.org/licenses/MIT) になっています。詳しくは [ライセンスファイル](LICENCE) を参照してください。ソフトウェア/ソースのコピーに元の著作権とライセンスの通知を含める限り、自由に行うことができます。
