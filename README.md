@@ -6,6 +6,10 @@ Mute all users in discord with command.
 対応サーバーソフトウェア : Spigot/PaperMC
 対応バージョン          : 1.18
 
+## ダウンロード
+
+[リリース](https://github.com/riyaya1528/WolfPlugin/releases/tag/1.0)からダウンロードができます
+
 ## セットアップ方法
 
 1. プラグインを一度起動し、config等を生成してください。
