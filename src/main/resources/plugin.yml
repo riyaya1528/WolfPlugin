@@ -1,0 +1,15 @@
+name: WolfPlugin
+version: '${project.version}'
+main: net.riyaya.wolfplugin.WolfPlugin
+api-version: 1.18
+authors: [ riyaya1528 ]
+commands:
+  mute:
+    description: Mute users in Discord
+  unmute:
+    description: UnMute users in Discord
+permissions:
+  WolfPlugin.command.mute:
+    default: op
+  WolfPlugin.command.unmute:
+    default: op
