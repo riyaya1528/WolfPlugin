@@ -19,12 +19,9 @@ public class UnMute implements CommandExecutor {
             }
             WolfPlugin.bot.unMute();
             sender.sendMessage(ChatColor.GREEN + "ミュートを解除しました");
-        }else if(sender instanceof CommandBlock) {
-            WolfPlugin.bot.unMute();
-            sender.sendMessage(ChatColor.GREEN + "ミュートを解除しました");
-        }else if(sender instanceof ConsoleCommandSender) {
-            WolfPlugin.bot.unMute();
-            sender.sendMessage(ChatColor.GREEN + "ミュートを解除しました");
+        }else {
+            WolfPlugin.bot.mute();
+            sender.sendMessage(ChatColor.GREEN + "ミュートにしました");
         }
         return true;
     }

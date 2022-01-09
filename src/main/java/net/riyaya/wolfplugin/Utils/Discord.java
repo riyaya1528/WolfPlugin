@@ -39,7 +39,9 @@ public class Discord {
 
     public void unMute() {
         for(Member member : jda.getVoiceChannelById(config.getString("voiceChannelID")).getMembers()) {
-            member.mute(false).submit().join();
+            if(member == null) {
+                break;
+            }
             if(ignoreUser.getConfig().getStringList("ignoreUserID").contains(member.getId())) {
             }else {
                 member.mute(false).submit().join();
