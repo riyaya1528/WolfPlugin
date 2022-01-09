@@ -3,7 +3,6 @@ package net.riyaya.wolfplugin.DataBase;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
-import github.scarsz.discordsrv.objects.managers.AccountLinkManager;
 
 import java.io.File;
 import java.io.IOException;

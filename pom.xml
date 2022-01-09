@@ -85,11 +85,5 @@
             <artifactId>JDA</artifactId>
             <version>5.0.0-alpha.3</version>
         </dependency>
-        <dependency>
-            <groupId>com.discordsrv</groupId>
-            <artifactId>discordsrv</artifactId>
-            <version>1.24.0</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 </project>
